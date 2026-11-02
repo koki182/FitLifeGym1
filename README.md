@@ -11,7 +11,7 @@ CSS Styling
 
 The external stylesheet was used to:
 
-Create a consistent colour scheme.
+Create a consistent colour scheme.      
 Improve the typography.
 Add spacing between sections.
 Style headings and paragraphs.
@@ -143,3 +143,65 @@ https://www.w3.org/Style/CSS/
 Google Fonts. (2026). Google Fonts. Available at:
 https://fonts.google.com/
 
+# FitLife Gym Website
+
+## Project Description
+FitLife Gym is a fitness website developed to provide information about gym facilities, services and membership enquiries. The website is designed to be simple, attractive and easy to navigate.
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Google Maps
+- FormSubmit
+
+## Website Pages
+1. Home – Introduction to FitLife Gym.
+2. About – Information about the gym.
+3. Services – Information about gym services and facilities.
+4. Enquiry – Form for customer enquiries.
+5. Contact – Contact information and location map.
+
+## Website Features
+- Responsive website layout
+- Navigation between pages
+- Interactive FAQ section
+- Image gallery with lightbox
+- Service search functionality
+- Scroll animations
+- Embedded Google Map
+- Enquiry form validation
+- AJAX form submission
+
+## Project Structure
+
+```text
+FitLife-Gym/
+│
+├── index.html
+├── about.html
+├── services.html
+├── enquiry.html
+├── contact.html
+├── robots.txt
+├── sitemap.xml
+├── README.md
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+    └── gym.jpg
+```
+
+## How to Run the Website
+1. Download or clone the repository.
+2. Open the project folder.
+3. Open index.html in a web browser.
+4. Use the navigation menu to explore the website.
+
+## Developer
+FitLife Gym Website – Student Web Development Project.
