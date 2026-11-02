@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>FitLife Gym | Enquiry</title>
+    <meta name="description" content="Contact FitLife Gym to ask questions about memberships, services and fitness programmes.">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -46,143 +47,27 @@
 
 
     <!-- Enquiry form -->
-    <section>
+    <section class="enquiry-section">
+    <h2>Send Us an Enquiry</h2>
 
-        <div class="form-container">
+    <form id="enquiryForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" required>
 
-            <div class="section-title">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" required>
 
-                <h2>Get Started</h2>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
 
-                <p>
-                    Complete the form below and our team can assist
-                    you with your enquiry.
-                </p>
+        <label for="message">Your Message:</label>
+        <textarea id="message" required></textarea>
 
-            </div>
+        <button type="submit">Submit Enquiry</button>
 
-
-            <form>
-
-
-                <!-- Name -->
-                <div class="form-group">
-
-                    <label for="name">
-                        Full Name
-                    </label>
-
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your full name"
-                        required
-                    >
-
-                </div>
-
-
-                <!-- Email -->
-                <div class="form-group">
-
-                    <label for="email">
-                        Email Address
-                    </label>
-
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        required
-                    >
-
-                </div>
-
-
-                <!-- Phone -->
-                <div class="form-group">
-
-                    <label for="phone">
-                        Phone Number
-                    </label>
-
-                    <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        placeholder="Enter your phone number"
-                    >
-
-                </div>
-
-
-                <!-- Enquiry type -->
-                <div class="form-group">
-
-                    <label for="service">
-                        What are you interested in?
-                    </label>
-
-                    <select id="service" name="service">
-
-                        <option value="">
-                            Select a service
-                        </option>
-
-                        <option value="membership">
-                            Gym Membership
-                        </option>
-
-                        <option value="strength">
-                            Strength Training
-                        </option>
-
-                        <option value="cardio">
-                            Cardio Training
-                        </option>
-
-                        <option value="classes">
-                            Fitness Classes
-                        </option>
-
-                        <option value="personal">
-                            Personal Training
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-                <!-- Message -->
-                <div class="form-group">
-
-                    <label for="message">
-                        Your Enquiry
-                    </label>
-
-                    <textarea
-                        id="message"
-                        name="message"
-                        placeholder="Write your enquiry here..."
-                        required
-                    ></textarea>
-
-                </div>
-
-
-                <!-- Submit -->
-                <button type="submit" class="btn">
-                    Send Enquiry
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
+        <p id="formMessage"></p>
+    </form>
+</section>
 
 
     <!-- Footer -->
@@ -193,7 +78,7 @@
         <p>Your fitness. Your goals. Your journey.</p>
 
     </footer>
-
+<script src="js/script.js"></script>
 </body>
 
 </html>
