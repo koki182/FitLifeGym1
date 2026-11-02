@@ -119,7 +119,7 @@ if (enquiryForm) {
 
         formMessage.textContent = "Submitting your enquiry...";
 
-        fetch("https://formsubmit.co/ajax/fitlifegym@gmail.com", {
+        fetch("https://formsubmit.co/ajax/koketsomoloto123@gmail.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
