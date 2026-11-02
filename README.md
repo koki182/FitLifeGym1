@@ -1,4 +1,4 @@
-# FitLifeGym1
+# FitLifeGym1 
 
 Part 2: CSS Styling and Responsive Design
 Part 2 Details
